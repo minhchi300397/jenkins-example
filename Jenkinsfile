@@ -4,6 +4,7 @@ pipeline {
         stage('Test'){
             steps{
                 bat 'echo Hello Github'
+                bat 'trigger build'
             }
         }
     }
